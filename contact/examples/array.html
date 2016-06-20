@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<title>Easy locator</title>
+    <link rel="stylesheet" type="text/css" href="easyLocator.css">  
+    <link rel="stylesheet" type="text/css" href="../../styles/style.css">  
+    <link rel="stylesheet" type="text/css" href="../../grille/grille.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="easyLocator.js"></script>
+    <script src="markerclusterer.min.js"></script>
+</head>
+
+<body>
+<div class="wrapper boite">
+    <div class="row box_texte colg3">
+        <h1 class="contact_titre">Contact</h1>
+            <div class="contact_icone"></div>
+            <div class="contact_texte">
+                <p class="nom">Cindelle Wanner</p>
+                <p>101 rue de l'Ortenbourg <br/>67730 Châtenois Annexe</p>
+                <p>06.06.46.17.03</p>
+                <p>cindelle.wanner@gmail.com</p>
+            </div>
+    </div>
+    <div class="row map colg3">
+        <div class="contact_cadre"></div>
+        <div id="locatorList" style="height:400px"></div>
+        <script>      
+          var data = [{
+                title: 'Scherwiller',
+                description: "101 rue de l'Ortenbourg, 67730 Châtenois Annexe",        
+                lat: 48.288576,
+                lng: 7.407982
+
+             }
+          ];
+
+          $( document ).ready(function() {
+            $('#locatorList').easyLocator({
+               myLocations: data
+            });
+          });
+       </script>
+    </div>
+    <a href="../../accueil.html" class="contact_button">retour</a>
+</div> 
+</body>
+
+</html>

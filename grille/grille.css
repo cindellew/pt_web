@@ -1,9 +1,4 @@
-.wrapper{
-    width: 960px;
-    margin: 0 auto;
-    text-align: center;
-    padding-right: 1em;
-}
+
 
 .row:after{
     display: block;
