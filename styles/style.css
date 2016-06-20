@@ -1,7 +1,9 @@
 
 /**********ACCUEIL*******/
 
-.wrapper
+.wrapper{
+       background-color: #2d8b72;
+}
 
 .vignette span { display: none; }
 a.vignette:hover span { display: block; }
@@ -20,6 +22,9 @@ a.vignette:hover span { display: block; }
 
 /******** COMPETENCES *****/
 
+.container{
+       background-color: #2d8b72;
+}
 
 /*******PORTFOLIO*************/
 

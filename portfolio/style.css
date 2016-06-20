@@ -1,4 +1,9 @@
 
+.menu{
+    height: 2em;   
+    float: right;
+}
+
 
 body {
 	font-size: 40px;
@@ -9,12 +14,7 @@ body {
 	clear: both;
 }
 
-#page-wrap {
-	width: 760px;
-	background: white;
-	margin: 20px auto;
-	padding: 20px;
-}
+
 
 .button {
 	float: left;
