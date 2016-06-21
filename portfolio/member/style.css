@@ -1,0 +1,109 @@
+html{
+    
+    background-color: gray;
+}
+
+main{
+    position: relative;
+    height: 100%;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.col2{
+    background-image: url(images/ville.JPG);
+    height: 500px;
+    background-size: cover;
+    margin-top: 50px;
+    border-radius: 0 20px 20px 0;
+}
+
+.col4{
+    background-color: white;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 20px 0 0 20px;
+}
+
+h2{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top:70px;
+    left: 100px;
+}
+
+h1{
+    position: absolute;
+    left: 100px;
+    top: 110px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+
+.onet{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: calc(100% / 11 * 4);
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.google{
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px black solid;
+    padding: 15px 120px 15px ;
+}
+
+.facebook{
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px black solid;
+    padding: 15px;
+    padding: 15px 118px 15px ;
+}
+
+.twitter{
+    position: absolute;
+    top: 340px;
+    left: 100px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px black solid;
+    padding: 15px;
+    padding: 15px 127px 15px ;
+}
+
+hr{
+    position: absolute;
+    width: calc(100% / 9 * 4);
+    bottom: 70px;
+}
+
+.twot{
+    position: absolute;
+    bottom: 25px;
+    left: 100px;
+}
+
+.email{
+    position: absolute;
+    bottom: 25px;
+    left: 400px;
+    border: none;
+    background-color: white;
+    color: green;
+}
+

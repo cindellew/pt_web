@@ -1,0 +1,115 @@
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.row:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+/******HEADER***********/
+
+.header{
+    background-color: beige;
+}
+
+
+
+nav ul li{
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 1em;
+}
+ 
+
+
+/******CONTENU***********/
+
+
+.colg6 h1 {
+    text-align: center;
+    font-size: 1em;
+}
+
+.colg1 h1{
+       text-align: center;
+}
+
+.colg2 h1{
+       text-align: center;
+}
+
+.colg3 h1{
+       text-align: center;
+}
+
+.colg6 p {
+    text-align: center;
+    font-size: 1em;
+}
+
+
+
+/***IMAGES***/
+
+.imgcol1{
+    height: 6em;
+    border-radius: 1em;
+    background-color: antiquewhite;
+}
+
+.imgcol2{
+    height: 12em;
+    background-color: burlywood;
+    border-radius: 1em;
+}
+
+.imgligne1{
+    width: calc(((100% - 1em ) / 1) - 1em);
+    height: 400px;
+    background-image: url(images/sable1200.jpg);
+    background-size: cover;
+    border-radius: 1em;
+}
+
+.imgjour{
+    background-image: url(images/plage.jpg);
+    background-size: cover;
+}
+
+.imgsoir{
+    background-image: url(images/ciel.jpg);
+    background-size: cover;
+}
+
+.menu-button{
+    display: none;
+}
+
+/*****MEDIA QUERY*******/
+
+
+@media (max-width : 381px){
+ .menu-button{
+        display: block;
+        height: 2em;
+        line-height: 2em;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }
+    header h1{
+        display: none;
+    }
+    nav ul{
+        height: 0;
+        overflow: hidden;
+        transition: height 0.5s;
+    }
+    nav ul.open{
+        height: 12em;
+    }
+    
+}
