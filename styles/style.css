@@ -1,9 +1,15 @@
 /********** GENERAL*******/
 
 
+body{
+    background-color: #2d8b72;   
+}
+
 .wrapper{
-    background-color: #2d8b72;
-    height: 700px;
+    
+    background-size: cover;
+    margin:0;
+    padding:0;
 }
 
 
@@ -18,21 +24,121 @@ p{
 }
 
 
-/**********ACCUEIL*******/
+/***********************************ACCUEIL**********************************************/
 
+.bloc_accueil{  
+    
+}
+    
+.vignette div { display: none; }
+a.vignette:hover div { display: block; }
 
-.vignette span { display: none; }
-a.vignette:hover span { display: block; }
-
-.vignette p{
+.vignette{
     text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.accueil_titre{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
 }
 
 .en-haut{
-    
+    margin-top: 30px;
+}
+
+.grand_titre{
+    background-image: url(../images/grand_titre.png);
+    background-size: cover;
+    width: 350px;
+    height: 232px;
+    margin: 150px 120px 150px 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .en-bas{
+}
+
+
+.img_accueil1{
+    margin: none;
+    background-repeat:no-repeat;
+    position: absolute;
+    background-size: cover;
+    top: 30px;
+}
+
+
+.img_comp{
+    background-image: url(../images/comp%C3%A9tence.png);
+    width: 174px;
+    height: 110px; 
+    margin-left: 130px;  
+}
+
+.img_form{
+    background-image: url(../images/formation.png);
+    width: 102px;
+    height: 100px;
+    margin-left: 165px;
+}
+
+.img_exp{
+    background-image: url(../images/exp%C3%A9riences.png);
+    width: 76px;
+    height: 150px;
+    margin-left: 180px;
+}
+
+.img_accueil2{
+    margin: none;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 50px;
+
+}
+
+.img_propos{
+    background-image: url(../images/a_propos.png);
+    width: 130px;
+    height: 133px;
+    margin-left: 150px;
+}
+
+.img_port{
+    background-image: url(../images/portfolio.png);
+    width: 107px;
+    height: 100px;
+    margin-left: 163px;
+}
+
+.img_cont{
+    background-image: url(../images/contact.png);
+    width: 170px;
+    height: 107px;
+    margin-left: 125px;
+}
+
+
+@media (max-width:400px){
+    
+    a.vignette:hover div { 
+        display: none; 
+    }
+    
+    .grand_titre{
+        margin: 20px;; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .accueil_titre{
+           text-align: center;
+    }
     
 }
 
