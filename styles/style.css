@@ -15,12 +15,25 @@ body{
 
 
 h1 {
-  font-size: 5em;
+  font-size: 70px;
   color: white;
 }
 
 p{
    color: #e0e2e1; 
+}
+
+.retour_button{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 0.5em;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    right: 150px;
 }
 
 
@@ -46,7 +59,10 @@ a.vignette:hover div { display: block; }
 }
 
 .en-haut{
-    margin-top: 30px;
+}
+
+.colg2{
+    margin: 0.5em 0 0 1em;   
 }
 
 .grand_titre{
@@ -76,21 +92,21 @@ a.vignette:hover div { display: block; }
     background-image: url(../images/comp%C3%A9tence.png);
     width: 174px;
     height: 110px; 
-    margin-left: 130px;  
+    margin-left: 115px;  
 }
 
 .img_form{
     background-image: url(../images/formation.png);
     width: 102px;
     height: 100px;
-    margin-left: 165px;
+    margin-left: 153px;
 }
 
 .img_exp{
     background-image: url(../images/exp%C3%A9riences.png);
     width: 76px;
     height: 150px;
-    margin-left: 180px;
+    margin-left: 165px;
 }
 
 .img_accueil2{
@@ -106,21 +122,21 @@ a.vignette:hover div { display: block; }
     background-image: url(../images/a_propos.png);
     width: 130px;
     height: 133px;
-    margin-left: 150px;
+    margin-left: 135px;
 }
 
 .img_port{
     background-image: url(../images/portfolio.png);
     width: 107px;
     height: 100px;
-    margin-left: 163px;
+    margin-left: 145px;
 }
 
 .img_cont{
     background-image: url(../images/contact.png);
     width: 170px;
     height: 107px;
-    margin-left: 125px;
+    margin-left: 110px;
 }
 
 
@@ -137,7 +153,7 @@ a.vignette:hover div { display: block; }
     }
     
     .accueil_titre{
-           text-align: center;
+           text-align: center; 
     }
     
 }
@@ -148,7 +164,7 @@ a.vignette:hover div { display: block; }
        background-color: #2d8b72;
 }
 
-/*******PORTFOLIO*************/
+/*********************************************PORTFOLIO****************************************************/
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -162,71 +178,245 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* Navigation */
-
-nav {
-  width: 100%;
-  height: 60px; 
-  position: fixed; 
-  top: 0;
-  background: #1ABC9C;
+.menu{
+    height: 2em;   
+    position: absolute;
+    top: 40px;
+    right: 130px;
 }
 
-nav ul {
-    padding: 20px;
-    margin: 0 auto;
-    list-style: none;
-    float: right;
+
+body {
+	font-size: 40px;
+	font-family: Helvetica, sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+.button {
+	float: left;
+	margin: 10px;
+    text-decoration: none;
+	color : #d3d3d3;
+}
+
+#home {
+	display: block;
+	padding: 30px;
+}
+#home-button {
+	opacity: 1.0;
+}
+
+#about {
+	display: block;
+	padding: 30px;
+}
+#about-button {
+	opacity: 1.0;
+	color : #d3d3d3;
+}
+
+
+/* images */
+
+.img_portf{
+    position: absolute;
+    background-size: cover;
+}
+
+#img_portf1{
+    height: 400px;
+    width: 267px;
+    top: 160px;
+    left: 190px;
+}
+
+#img_portf2{
+    height: 180px;
+    width: 173px;
+    top: 160px;
+    left: 570px;
+}
+
+#img_portf3{
+    height: 180px;
+    width: 173px;
+    bottom: 145px;
+    left: 570px;
+}
+
+#img_portf4{
+    height: 400px;
+    width: 305px;
+    top: 160px;
+    right: 190px;
+}
+
+.img_portfw{
     
-    
 }
-nav ul li {
-  display: inline-block;
-  margin: 0 10px;
+
+#img_portfw1{
+    height: 500px;
+    width: 175px;
+    top: 60px;
+    left: 200px;
 }
-nav ul li a {
-  padding: 10px 0;
-  color: #adacac;
-  font-size: 1rem;
-  text-decoration: none;
-  font-weight: bold;
-  transition: all 0.2s ease;
+
+#img_portfw2{
+    height: 343px;
+    width: 600px;
+    top: 190px;
+    right: 200px;
 }
-nav ul li a:hover {
-  color: #34495E;
+
+/* zoom */ 
+
+.big_img > a img {
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
 }
-a.active {
-    color: #34495E;
+ 
+.zoom:hover > .big_img > a img {
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+}
+
+/* autre */
+
+
+.port_titre{
+    position: absolute;
+    top: 40px;
+    left: 150px;
+}
+
+.port_titre_web{
+    position: absolute;
+    top: 60px;
+    left: 400px;
+}
+
+.page-wrap{
+    position: relative;   
+}
+
+.lien_autre{
+    position: absolute;
+    bottom: 60px ;
+    left: 150px;
+    font-size: 25px;
+    color: white;
 }
 
 
+/******* chaque page   ********/
 
-/* Sections */
-
-section {
-  width: 100%;
-  padding: 50px;
-  background: #fff;
-  border-bottom: 1px solid #ccc;
-  height: 500px;
-  text-align: center;
-}
-section:nth-child(even) {
-  background: #ecf0f1;
-}
-section:nth-child(odd) {
-  background: #bdc3c7;
-}
-.sections section:first-child {
-  margin-top: 60px;
-}
-section.active {}
-
-footer {
-  height: 500px;
-  background: #34495e;
+.port_button{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 0.5em;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    position: absolute;
+    bottom: 60px;
+    right: 110px;
 }
 
+
+.img_crea{
+    background-image: url(../images/portfolio_info1.png);
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+}
+
+.texte_crea{
+    font-size: 20px;  
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    text-align: justify;
+}
+
+.img_pic{
+    background-image: url(../images/portfolio_info2.png);
+    background-size: cover;
+    position: absolute;
+    width: 256px;
+    height: 267px;
+    left: 100px;
+    top: 170px;
+}
+
+.texte_pic{
+    font-size: 20px;  
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    text-align: justify;
+}
+
+
+.img_touc{
+    background-image: url(../images/portfolio_info3.png);
+    background-size: cover;
+    position: absolute;
+    width: 256px;
+    height: 267px;
+    left: 100px;
+    top: 170px;
+}
+
+.texte_touc{
+    font-size: 20px;  
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    text-align: justify;
+}
+
+.img_pomme{
+    background-image: url(../images/portfolio_info4.png);
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+}
+
+.texte_pomme{
+    font-size: 20px;  
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    text-align: justify;
+}
+
+.img_port{
+    background-image: url(../images/portfolio_web1.png);
+    background-size: cover;
+    width: 227px;
+    height: 650px;
+}
+
+.texte_port{
+    font-size: 20px;  
+    position: absolute;
+    top: 250px;
+    right: 200px;
+    text-align: justify;
+}
 
 /******************************** CONTACT *********************************************/
 
@@ -280,18 +470,7 @@ footer {
 
 
 
-.contact_button{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 2em;
-    padding: 0.5em;
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    position: absolute;
-    bottom: 30px;
-    right: 150px;
-}
+
 
 @media (max-width:400px){
     

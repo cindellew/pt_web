@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Cindelle Wanner - Portfolio</title>
+        <link rel="stylesheet" href="../grille/grille.css">
+        <link rel="stylesheet" href="../styles/style.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	   <script type="text/javascript" src="js/jquery.js"></script>
+	   <script type="text/javascript">
+	
+		$(function(){
+		
+			$("#about-button").css({
+				opacity: 0.3
+			});
+			$("#contact-button").css({
+				opacity: 0.3
+			});
+		
+			$("#page-wrap div.button").click(function(){
+				
+				$clicked = $(this);
+				
+				// if the button is not already "transformed" AND is not animated
+				if ($clicked.css("opacity") != "1" && $clicked.is(":not(animated)")) {
+					
+					$clicked.animate({
+						opacity: 1,
+						borderWidth: 5
+					}, 600 );
+					
+					// each button div MUST have a "xx-button" and the target div must have an id "xx" 
+					var idToLoad = $clicked.attr("id").split('-');
+					
+					//we search trough the content for the visible div and we fade it out
+					$("#content").find("div:visible").fadeOut("fast", function(){
+						//once the fade out is completed, we start to fade in the right div
+						$(this).parent().find("#"+idToLoad[0]).fadeIn();
+					})
+				}
+				
+				//we reset the other buttons to default style
+				$clicked.siblings(".button").animate({
+					opacity: 0.5,
+					borderWidth: 1
+				}, 600 );
+				
+			});
+		});
+		
+	</script>
+
+    </head>
+    
+    <body>
+        <div class="wrapper">
+            <div id="page-wrap" >
+                <div class="menu">
+                    <div id="home-button" class="button">
+                        <a href="infographie.html" class="button"> Infographie </a>
+                    </div>
+                    <div id="about-button" class="button">
+                        <a href="web.html" class="button"> Web </a>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <h1 class="port_titre_web">Portfolio</h1>
+                <a class="lien_autre"> &rarr; Compétences</a>
+                <div class=" infographie zoom">
+                    <div class="big_img">
+                        
+                    </div>
+                </div>
+                <div class="web zoom">
+                    <div class="big_img">
+                        <a href="elements/port.html"><img class="img_portf" id="img_portfw1" src="../images/portfolio_web1.png"/></a>
+                        <a href=""><img  class="img_portf" id="img_portfw2" src="../images/portfolio_web2.png"/></a>
+                    </div>
+                </div>
+                <a href="../accueil.html" class="retour_button">retour</a>
+            </div>
+        
+        </div>    
+    </body>
+</html>
