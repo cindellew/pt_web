@@ -1,0 +1,63 @@
+ .conteneur{
+     position: relative;
+     height: 650px;
+ }
+
+.titre_form{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.icone_form{
+    
+}
+
+.schema_form{
+      
+}
+
+.annee{
+    text-align: center;
+    padding-top: 100px; 
+    color: white;
+    font-size: 27px;
+}
+
+.schema_img{
+    position: absolute;
+    background-image: url(../images/trait_formation.png);
+    background-size: cover;
+    width: 923px;
+    height: 251px;
+}
+
+.texte_form{
+    text-align: center;
+}
+
+.texte_form p{
+       
+}
+
+.soustitre_form{
+    font-size: 20px;
+}
+
+.sousoutitre_form{
+    font-size: 16px;
+}
+
+.retour_form{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 0.5em;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    right: 150px;
+}
