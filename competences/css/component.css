@@ -1,12 +1,51 @@
+.container{
+    position: relative;   
+}
 
-.wrapper{
-    background-color: #2d8b72;   
+.titre comp{
+    
+}
+
+.icone_comp{
+    background-image: url(../../images/comp%C3%A9tence.png);
+    background-size: cover;
+    width: 158px;
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    left: 600px;
+}
+
+.info_comp{
+    
+}
+
+.soustitre_comp{
+    
+}
+
+.texte_info{
+    display: inline-block;
+    width: 20%;
+}
+
+.pourcent_comp{
+    
+}
+
+.lien_port{
+    
 }
 
 
-h1{
-    color: white;
-}
+
+
+
+
+
+
+
+/************************* SLIDER **************/
 
 
 
@@ -34,19 +73,14 @@ h1{
 	padding: 0;
 }
 
-.cbp-fwslider ul li > a,
+.cbp-fwslider ul li > .info_comp,
 .cbp-fwslider ul li > div {
 	display: block;
 	text-align: center;
 	outline: none;
 }
 
-.cbp-fwslider ul li > a img {
-	border: none;
-	display: block;
-	margin: 0 auto;
-	max-width: 75%;
-}
+
 
 .cbp-fwslider nav span {
 	position: absolute;

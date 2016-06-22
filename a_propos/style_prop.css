@@ -1,0 +1,115 @@
+.contenu_prop{
+    position: relative;
+    height: 610px;
+}
+
+.titre_prop{
+    position: absolute;
+    left: 130px;
+}
+
+.icone_prop{
+    background-image: url(../images/a_propos.png);
+    background-size: cover;
+    width: 120px;
+    height: 123px;
+    position: absolute;
+    top:30px;
+    left: 450px;
+}
+
+.texte_prop{
+    font-size: 20px;   
+    text-align: justify;
+}
+
+.texte_haut{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-weight: 600;
+ }
+
+
+
+.texte_bas{
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+}
+
+
+.photo{
+    background-image: url(../images/photo.png);
+    background-size: cover;
+    width: 300px;
+    height: 298px;
+    position: absolute;
+    right: 300px;
+    top: 30px;;
+}
+
+.retour_prop{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 0.5em;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 220px;
+}
+
+
+
+
+@media (max-width:1200px){
+    
+    .photo{
+        right: 150px;   
+    } 
+    
+}
+
+
+@media (max-width: 1050px){
+    
+    .photo{
+        display: none;
+    }
+}
+
+@media (max-width:900px){
+    
+    .titre_prop{
+        left: 50px;
+    }
+    
+    .texte_prop{
+        width: 70%; 
+        left: 50px;
+        font-size: 18px;
+    }
+    
+    .texte_bas{
+        bottom: 110px;
+        left: 50px;
+    }
+    
+    .retour_prop{
+        right: 180px;
+    }
+    
+    .icone_prop{
+           left: 350px;
+    }
+    
+}
+    
+    
+    
+    
+    
+    
