@@ -1,4 +1,4 @@
-.contenu_prop{
+ .contenu_prop{
     position: relative;
     height: 610px;
 }
@@ -28,6 +28,7 @@
     top: 200px;
     left: 100px;
     font-weight: 600;
+    color: #D1B8CF;
  }
 
 
@@ -69,12 +70,13 @@
     font-size: 18px;
     padding: 0.5em;
     background-color: transparent;
-    border: 1px solid #e0e2e1;
+    border: 1px solid #CEA3CA;
     border-radius: 20px;
     color: white;
     position: absolute;
     bottom: 70px;
-    left: 130px;   
+    left: 130px; 
+    color:  #D1B8CF;
 }
 
 

@@ -15,6 +15,10 @@ body {
     right: 130px;
 }
 
+.menu_web{
+    top: 80px;   
+}
+
 
 body {
 	font-size: 40px;
@@ -42,19 +46,20 @@ body {
 .port_icone{
     background-image: url(../images/portfolio.png);
     background-size: cover;
-    width: 129px;
-    height:  120px;
+    width: 54px;
+    height:  50px;
     position: absolute;
     
 }
 
 .info_icone{
-    top: 20px;
+    top: 60px;
     left: 450px;   
 }
 
 .web_icone{
-    
+    top: 100px;
+    left: 720px; 
 }
 
 
@@ -143,8 +148,8 @@ body {
 
 .port_titre_web{
     position: absolute;
-    top: 60px;
-    left: 400px;
+    top: 40px;
+    left: 420px;
 }
 
 .lien_autre{
@@ -171,10 +176,6 @@ body {
     position: absolute;
     bottom: 40px;
     right: 110px;
-}
-
-.button_pic{
-    bottom: -600px;
 }
 
 body_pic{

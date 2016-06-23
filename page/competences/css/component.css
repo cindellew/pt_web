@@ -1,5 +1,5 @@
 .info_comp{
-    height: 450px;
+    height: 500px;
 }
 
 .icone_comp{
@@ -16,6 +16,7 @@
     position: absolute;
     color: white;
     left: 200px;
+    top: 50px;
 }
 
 .texte{
@@ -27,14 +28,14 @@
 .texte1{
     width: 400px;
     position: absolute;
-    top: 100px;
+    top: 150px;
     left: 200px;
 }
 
 .texte2{
     width: 400px;
     position: absolute;
-    top: 200px;
+    top: 250px;
     left: 200px;
 }
 
@@ -45,7 +46,7 @@
     width: 300px;
     height: 350px;
     position: absolute;
-    top: 0;
+    top: 50px;
     right: 300px;
 }
 
@@ -55,13 +56,14 @@
     width: 416px;
     height: 350px;
     position: absolute;
-    top: 0;
+    top: 50px;
     right: 250px;
 }
 
 .lien_port{
+    font-size: 25px;
     position: absolute;
-    bottom: 70px;;
+    bottom: 30px;
     left: 200px;
 }
 
@@ -74,7 +76,7 @@
     border: 2px solid white;
     color: white;
     position: absolute;
-    bottom: 40px;
+    bottom: 0px;
     right: 100px;
 }
 
@@ -91,9 +93,7 @@
 
 .cbp-fwslider {
 	position: relative;
-	margin: 0 0 10px;
 	overflow: hidden;
-	padding: 40px 0 60px;
 }
 
 .cbp-fwslider ul {
