@@ -1,4 +1,4 @@
-
+ 
 
 /******************************** CONTACT *********************************************/
 
@@ -16,7 +16,7 @@
     border: 2px solid white;
     color: white;
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     right: 150px;
 }
 
@@ -50,19 +50,23 @@
     
 }
 
-.contact_texte p{
-    margin: 2em;   
-}
 
 .nom{
-    color: #ccc9ca;
+    color: #e0e2e1;
     font-size: 25px;
+    margin: 2em;
 }
+
+.autre{ 
+    margin: 2em;
+    color: #ccc9ca;
+}
+
 
 .map{
     position: absolute;
     right: 50px;
-    top: 150px;
+    top: 100px;
     width: 500px;
 }
 
@@ -71,11 +75,35 @@
 
 
 @media (max-width:400px){
+  
+    .contact_titre{
+        font-size: 50px;
+        top: 0px; 
+        left: 30px;
+    }
     
-   .contact_texte{
-        bottom: O;   
-   }
+    .contact_icone{
+        width: 80px;
+        height: 51px;
+        left: 240px;
+        top: 40px;
+    }
+   
     
+    .contact_texte{
+        width: 100% ;
+        top: 100px;
+    }
+    
+    .locatorMap {
+       display: none;
+    }
+    
+    .retour_cont{
+       font-size: 20px;
+       right: 120px;
+        bottom: 100px;
+    }
 }
 
 /*************************************** MAP *********************************************/

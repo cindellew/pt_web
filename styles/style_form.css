@@ -1,0 +1,155 @@
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+h1{
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 600;  
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif; 
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.conteneur{
+     position: relative;
+     height: 650px;
+ }
+
+.titre_form{
+    position: absolute;
+    top: -30px;
+    left: 50px;
+    
+} 
+
+.icone_form{
+    background-image: url(../images/formation.png);
+    background-size: cover;
+    width: 100px;
+    height: 102px;
+    position: absolute;
+    top: 10px;
+    left: 430px;
+}
+
+.schema_form{
+      
+}
+
+.annee{
+    text-align: center;
+    padding-top: 60px; 
+    color: white;
+    font-size: 27px;
+}
+
+.annee2{
+    text-align: center;
+    padding-top: 60px; 
+    color: white;
+    font-size: 20px;
+}
+
+.schema_img{
+    position: absolute;
+    background-image: url(../images/trait_formation.png);
+    background-size: cover;
+    width: 923px;
+    max-width: 100%;
+    height: auto;
+    height: 260px;
+    right: 200px;
+    top: 220px;
+}
+
+.texte_form{
+    text-align: center;
+}
+
+.texte_form1{
+    margin-top: 280px;
+}
+
+.texte_form2{
+    margin-top: 150px;
+}
+
+.texte_form3{
+    margin-top: 280px;
+}
+
+.texte_form p{
+       
+}
+
+.soustitre_form{
+    font-size: 20px;
+}
+
+.sousoutitre_form{
+    font-size: 16px;
+}
+
+.retour_form{
+        font-family: 'Open Sans', sans-serif; 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 0.4em;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+}
+
+@media (max-width:400px){
+    
+   .retour_form{
+       font-size: 20px;
+       right: 130px;
+}
+    .schema_img{
+        display: none;
+    }
+    .annee{
+        display: none;
+    }
+    .texte_form1 {
+    margin-top: 50px;
+}
+    .texte_form2 {
+    margin-top: 0px;
+}
+    .texte_form3 {
+    margin-top: 0px;
+}
+    .titre_form {
+        font-size: 40px;
+        top: 0px;
+    }
+    
+    .icone_form{
+        width: 50px;
+        height: 51px;
+        left: 260px;
+        top: 30px;
+    }
+    .soustitre_form{
+    font-size: 18px;
+}
+    
+}
+
+@media (min-width:400px){
+    
+    .annee2{
+        display: none;
+    }
+}
+
+

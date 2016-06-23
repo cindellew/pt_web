@@ -1,13 +1,9 @@
 .info_comp{
-    position: relative;   
-}
-
-.titre comp{
-    
+    height: 450px;
 }
 
 .icone_comp{
-    background-image: url(../../images/comp%C3%A9tence.png);
+    background-image: url(../../../images/comp%C3%A9tence.png);
     background-size: cover;
     width: 158px;
     height: 100px;
@@ -16,29 +12,71 @@
     left: 600px;
 }
 
-.info_comp{
-    
-}
-
 .soustitre_comp{
+    position: absolute;
+    color: white;
+    left: 200px;
+}
+
+.texte{
+    display: inline;
+    text-align: justify;
     
 }
 
-.texte_info{
-    position: absolute;
-    top: 0;
+.texte1{
     width: 400px;
-    
+    position: absolute;
+    top: 100px;
+    left: 200px;
 }
+
+.texte2{
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
 
 .pourcent_comp{
-    
+    background-image: url(../../../images/pourcent_comp.png);
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    right: 300px;
+}
+
+.pourcent_comp2{
+    background-image: url(../../../images/pourcent_comp2.png);
+    background-size: cover;
+    width: 416px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    right: 250px;
 }
 
 .lien_port{
-    
+    position: absolute;
+    bottom: 70px;;
+    left: 200px;
 }
 
+.retour_comp{
+        text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 0.5em;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
 
 
 
@@ -61,7 +99,6 @@
 .cbp-fwslider ul {
 	margin: 0;
 	padding: 0;
-	white-space: nowrap;
 	list-style-type: none;
 }
 
@@ -78,7 +115,6 @@
 .cbp-fwslider ul li > .info_comp,
 .cbp-fwslider ul li > div {
 	display: block;
-	text-align: center;
 	outline: none;
 }
 
@@ -86,7 +122,7 @@
 
 .cbp-fwslider nav span {
 	position: absolute;
-	top: 50%;
+	top: 200px;
 	width: 50px;
 	height: 100px;
 	color: #fff;

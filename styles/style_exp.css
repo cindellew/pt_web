@@ -1,0 +1,130 @@
+ .conteneur{
+    position: relative; 
+    height: 650px;
+ }
+
+.titre_exp{
+    position: absolute;
+    left: 60px;
+}
+
+.icone_exp{
+    background-image: url(../images/exp%C3%A9riences.png);
+    background-size: cover;
+    width: 76px;
+    height: 150px;
+    position: absolute;
+    left: 450px;
+    top: 10px;
+}
+
+.schema_exp{
+    
+}
+
+.annee{
+    text-align: center;
+    padding-top: 90px; 
+    color: white;
+    font-size: 27px;
+}
+
+
+.schema_img{
+    background-image: url(../images/trait_experience.png);
+    width: 710px;
+    height: 277px;
+    position: absolute;
+    top: 300px;
+    right: 300px;
+}
+
+.texte_exp{
+    text-align: center;
+}
+
+.texte_exp1{
+    margin-top: 160px;
+}
+
+.texte_exp2{
+    margin-top: 150px;
+}
+
+.annee2{
+    text-align: center;
+    padding-top: 60px; 
+    color: white;
+    font-size: 20px;
+}
+
+.soustitre_exp{
+    font-size: 20px;
+}
+
+.sousoutitre_exp{
+    font-size: 16px;
+}
+
+.retour_exp{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 0.5em;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:400px){
+    
+   .retour_exp{
+       font-size: 20px;
+       right: 130px;
+       bottom: 130px;
+}
+    .schema_img{
+        display: none;
+    }
+    .annee{
+        display: none;
+    }
+    .texte_exp1 {
+    margin-top: 100px;
+}
+    .texte_exp2 {
+    margin-top: 0px;
+}
+    
+    .titre_exp {
+        font-size: 40px;
+        top: 0px;
+    }
+    
+    .icone_exp{
+        width: 51px;
+        height: 100px;
+        left: 260px;
+    }
+    .soustitre_exp{
+    font-size: 18px;
+}
+    
+}
+
+@media (min-width:400px){
+    
+    .annee2{
+        display: none;
+    }
+}
