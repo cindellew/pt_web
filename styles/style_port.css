@@ -174,12 +174,12 @@ body_pic{
 }
 
 .body_pomme{
-    height: 1000px;
+    height: 700px;
     position: relative;
 }
 
 .body_crea{
-    height: 1000px;
+    height: 700px;
     position: relative;
 }
 
@@ -233,12 +233,14 @@ body_pic{
 .titre_ex{
     position: absolute;
     top: 40px;
-    right: 0;
+    right: 110px;
     width: 60%;
     text-align: center;
 }
 
-
+.titre_pic{
+    right: 50px;
+}
 
 
 .img_pomme{
@@ -603,13 +605,13 @@ body_pic{
     
     .button_autre_crea{
         font-size: 30px;
-        bottom: 50px;
+        bottom: 30px;
     }
     
     .lien_crea{
         position: absolute;
         left: 50px;
-        top: 1030px;
+        top: 1050px;
         font-size: 17px;
         
     }
@@ -738,7 +740,7 @@ body_pic{
     }
     
     .button{
-        font-size: 20px;
+        font-size: 17px;
         margin-top:  20px;
     }
     
