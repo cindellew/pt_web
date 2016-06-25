@@ -104,14 +104,14 @@ margin-top: -50px;
 
 .img_cont{
     background-image: url(../images/contact.png);
-    width: 170px;
-    height: 107px;
-    left: 110px;
+    width: 143px;
+    height: 90px;
+    left: 120px;
 }
 
 
 
-@media (max-width:1300px){
+/*@media (max-width:1300px){
      a.vignette:hover div { 
         display: none; 
     }
@@ -124,22 +124,28 @@ margin-top: -50px;
             text-align: center;
     }
     
-}
+}*/
 
-@media (max-width:600px){
+@media (max-width:400px){
+    
+     a.vignette:hover div { 
+        display: none; 
+    }
     
    .en-bas{
-        margin-top: 50px;   
+        margin-top: 10px;   
    }
     
     .grand_titre{
-        margin: 20px;; 
+        margin: 20px; 
         margin-left: auto;
         margin-right: auto;
     }
     
     .accueil_titre{
-           width: 100%;
+        margin: 0.5em 0 0 0;
+        width: 100%;
+        text-align: center;
     }
     
 }

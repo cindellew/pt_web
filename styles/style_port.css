@@ -1,12 +1,6 @@
 /*********************************************PORTFOLIO****************************************************/
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-
-
-body {
-  font-family: 'Open Sans', sans-serif;
-}
 
 .menu{
     height: 2em;   
@@ -22,10 +16,10 @@ body {
 
 body {
 	font-size: 40px;
-	font-family: Helvetica, sans-serif;
+
 }
 
-.page-wrap{
+.cont_pic{
     position: relative;
     height: 650px;
 }
@@ -41,6 +35,7 @@ body {
 	margin: 10px;
     text-decoration: none;
 	color : #d3d3d3;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 .port_icone{
@@ -84,16 +79,10 @@ body {
 #img_portf2{
     height: 180px;
     width: 173px;
-    top: 160px;
+    top: 260px;
     left: 570px;
 }
 
-#img_portf3{
-    height: 180px;
-    width: 173px;
-    bottom: 145px;
-    left: 570px;
-}
 
 #img_portf4{
     height: 400px;
@@ -159,6 +148,7 @@ body {
     font-size: 25px;
     color: white;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 
@@ -176,10 +166,21 @@ body {
     position: absolute;
     bottom: 40px;
     right: 110px;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 body_pic{
     height: 1000px;   
+}
+
+.body_pomme{
+    height: 1000px;
+    position: relative;
+}
+
+.body_crea{
+    height: 1000px;
+    position: relative;
 }
 
 .img_crea{
@@ -205,6 +206,8 @@ body_pic{
     text-align: center;
 }
 
+  
+
 .img_pic_touc{
     background-size: cover;
     position: absolute;
@@ -214,7 +217,7 @@ body_pic{
 .texte_ex{
     font-size: 20px;  
     position: absolute;
-    top: 250px;
+    top: 170px;
     right: 100px;
     text-align: justify;
 }
@@ -236,18 +239,12 @@ body_pic{
 }
 
 
-.img_touc{
-    background-image: url(../images/portfolio_info3.png);
-    width: 256px;
-    height: 267px;
-    top: 170px;
-}
 
 
 .img_pomme{
     background-image: url(../images/portfolio_info4.png);
     background-size: cover;
-    width: 430px;
+    width: 470px;
     height: 600px;
 }
 
@@ -261,9 +258,9 @@ body_pic{
 
 .titre_pomme{
     position: absolute;
-    right: 250px;
+    right: 120px;
     top: 40px;
-    width: 30%;
+    width: 50%;
     text-align: center;
 }
 
@@ -302,16 +299,52 @@ body_pic{
     text-align: justify;
 }
 
-.lien_site{
+
+
+.lien{
     position: absolute;
     font-size: 25px;
     text-decoration: none;
     color: white;
+    font-family: 'Open Sans', sans-serif; 
+    
+}
+
+
+
+.lien_pomme{
+    position: absolute; 
+    bottom: 70px;
+    left: 650px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.lien_crea{
+    position: absolute; 
+    bottom: 70px;
+    left: 650px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.lien_pic{
+    position: absolute; 
+    bottom: 70px;
+    left: 650px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 .site1{
     bottom: 100px;
-    right:420px;
+    right:620px;
 }
 
 
@@ -328,8 +361,26 @@ body_pic{
 }
 
 
+/* autre travaux */
 
-@media (max-width:1100px){
+.autre_travauxc1{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.autre_travauxc2{
+    width: 375px;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+
+/*@media (max-width:1100px){
     
     .texte_media{
         width: 40%;
@@ -499,16 +550,327 @@ body_pic{
     }
     
 }
+*/
 
-@media (max-width:450px){
+@media (max-width:400px){
 
-    .img_media{
+   
+    
+/* GENERAL */
+    
+    .titre_media{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;   
+    }
+    
+    .lien{
+        left: 40px;
+        bottom: -180px;
+        font-size: 17px;
+    }
+    
+    .texte_media{
+        width: 70%;  
+        position: absolute;
+        left: 40px;
+        top: 300px;
+        font-size: 18px;
+    }
+    
+/* CREA */
+    
+    .body_crea{
+        height: 1200px;   
+    }
+    
+    .titre_crea{
+        left: 0;   
+    }
+    
+    .img_crea{
+        width: 300px;
+        height: 450px;
+        position: absolute;
+        left: 30px;
+        top: 100px;
+    }
+    
+    .texte_crea{
+        left: 50px;
+        top: 600px;
+    }
+    
+    .button_autre_crea{
+        font-size: 30px;
+        bottom: 50px;
+    }
+    
+    .lien_crea{
+        position: absolute;
+        left: 50px;
+        top: 1030px;
+        font-size: 17px;
+        
+    }
+    
+    .body_creat{
+        height: 800px;
+        position: relative;
+    }
+    
+    .button_creat{
+        bottom: 50px;
+    }
+    
+    
+    
+    
+    
+/* LOGO */
+    
+    .img_pic{
+        width: 200px;
+        height: 200px;
+        top: 100px;
+        left: 80px;
+    }
+    
+
+    .texte_pic{
+        left: 55px;
+        top: 350px;
+        height: 800px;
+    }
+    
+
+    .cont_pic{
+        height: 1000px;   
+    }
+
+    
+    .button_pic{
+        font-size: 30px;
+        bottom: 10px;
+    }
+    
+    
+    .autre_travauxc1{
+        margin-left: 30px;
+        margin-top: 30px;   
+    }
+    
+    .lien_pic{
+        position: absolute;
+        left: 50px;
+        bottom: 120px;
+        font-size: 17px;
+    }
+    
+/* POMME */
+    
+    .cont_pomme{
+        height: 1100px;   
+    }
+    
+    .titre_pomme{
+        left: 30px;
+        top: -300px;
+
+    }
+    
+    .img_pomme{
+        width: 340px;
+        height: 450px;
+        position: absolute;
+        left: 10px;
+        top: 100px;
+    }
+    
+    .texte_pomme{
+        width: 100%;
+        left: 10px;
+        top: 300px;
+    }
+    
+    .button_autre_pomme{
+        position: absolute;
+        font-size: 30px;
+        bottom: 0;
+    }
+    
+    .lien_pomme{
+        position: absolute;
+        left: 40px;
+        bottom: 100px;
+        font-size: 17px;
+    }
+    
+   .autre_travauxc2{
+        margin-left: 30px;
+        margin-top: 0px;  
+        width: 280px;
+        height: 400px;
+       
+    }
+    
+/* PORTFOLIO */
+    
+    
+    .body_port{
+        height: 1600px; 
+        position: relative;
+    }
+    
+    .port_icone{
         display: none;
     }
     
-    .button_pic_touc{
-        bottom: -660px;   
+    .lien_autre{
+        bottom: 100px;
+        left: 50px;
     }
+    
+    .retour_button{
+        bottom: 10px; 
+        right: 130px;
+        font-size: 20px;
+    }
+    
+    .button{
+        font-size: 20px;
+        margin-top:  20px;
+    }
+    
+    .port_titre{
+        font-size: 30px;
+        left: 120px;
+    }
+    
+    #img_portf1{
+        width: 300px;
+        height: 450px;
+        left: 40px;
+    }
+    
+    #img_portf2{
+        width: 300px;
+        height: 300px; 
+        left: 40px;
+        top: 650px;
+    }
+    
+    #img_portf4{
+        width: 300px;
+        height: 450px; 
+        left: 40px;
+        top: 1000px;
+    }
+    
+/* WEB */
+    
+    .body_webt{
+        height: 650px;
+        position: relative;
+    }
+    
+    .body_port1{
+        height: 1450px; 
+        position: relative;
+    }
+    
+    .port_titre_web{
+        left: 120px;   
+    }
+    
+    #img_portfw1{
+        width: 300px;
+        height: 800px;
+        left: 30px;
+        top: 200px;
+    }
+    
+    #img_portfw2{
+        width: 300px;
+        height: 200px;
+        left: 30px;
+        top: 1050px;
+    }
+    
+    
+    .retour_buttonw{
+        bottom: 50px;   
+    }
+    
+    .lien_autrew{
+        top: 1280px;   
+    }
+    
+/* RESPONSIVE */
+    
+    .cont_port{
+        height: 1150px;   
+    }
+    
+   .button_resp{
+        font-size: 20px;
+        bottom: -450px;
+       margin-right: 30px;
+   }
+    
+    .img_portf{
+        top: 100px;
+        left: 80px;
+    }
+    
+    .texte_portf{
+        font-size: 18px;
+        width: 80%;
+        left: 40px;
+        top: 750px;
+        
+    }
+    
+    
+    .lien{
+        width: 100%;
+        top: 1000px;
+    }
+    
+    /* SITE */
+    
+    .cont_web{
+        height: 700px;   
+    }
+    
+    .titre_site2{
+        left: 150px;
+    }
+    
+    .img_web2{
+        width: 300px;
+        height: 170px;
+        top: 70px;
+        left: 20px;
+    }
+    
+    .texte_web2{
+        font-size: 18px;
+        width: 75%;
+        left: 30px;
+        top: 300px;
+    }
+    
+    .site2{
+        top: 550px;   
+    }
+    
+    .button_web{
+        font-size: 20px;
+        bottom: 0;
+        right: 150px;
+    }
+    
     
     
     

@@ -1,17 +1,4 @@
- @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-h1{
-    font-family: 'Open Sans', sans-serif;  
-    font-weight: 600;  
-}
-
-h2{
-    font-family: 'Open Sans', sans-serif; 
-}
-
-p{
-    font-family: 'Open Sans', sans-serif;
-}
 
 .conteneur{
      position: relative;
@@ -28,11 +15,11 @@ p{
 .icone_form{
     background-image: url(../images/formation.png);
     background-size: cover;
-    width: 100px;
-    height: 102px;
+    width: 70px;
+    height: 70px;
     position: absolute;
-    top: 10px;
-    left: 430px;
+    top: 30px;
+    left: 440px;
 }
 
 .schema_form{
@@ -41,8 +28,8 @@ p{
 
 .annee{
     text-align: center;
-    padding-top: 60px; 
-    color: #F0DCEE;
+    padding-top: 70px; 
+    color: #FAD2D2;
     font-size: 27px;
 }
 
@@ -51,36 +38,25 @@ p{
     padding-top: 60px; 
     color: white;
     font-size: 20px;
-    color: #F0DCEE;
+    color: #FAD2D2;
 }
 
 .schema_img{
     position: absolute;
-    background-image: url(../images/trait_formation.png);
+    background-image: url(../images/trait_formation1.png);
     background-size: cover;
-    width: 923px;
-    max-width: 100%;
-    height: auto;
-    height: 260px;
+    width: 970px;
+    height: 60px;
     right: 200px;
-    top: 220px;
+    top: 270px;
 }
 
 .texte_form{
     text-align: center;
+    margin-top: 170px;
 }
 
-.texte_form1{
-    margin-top: 280px;
-}
 
-.texte_form2{
-    margin-top: 150px;
-}
-
-.texte_form3{
-    margin-top: 280px;
-}
 
 .texte_form p{
        
@@ -88,10 +64,12 @@ p{
 
 .soustitre_form{
     font-size: 20px;
+    color: #FBEBEB;
 }
 
 .sousoutitre_form{
     font-size: 16px;
+    color: #FBEBEB;
 }
 
 .retour_form{
@@ -110,9 +88,13 @@ p{
 
 @media (max-width:400px){
     
+    .icone_form{
+        display: none;
+    }
+    
    .retour_form{
        font-size: 20px;
-       right: 130px;
+       right: 125px;
 }
     .schema_img{
         display: none;
@@ -120,8 +102,10 @@ p{
     .annee{
         display: none;
     }
+    
+    
     .texte_form1 {
-    margin-top: 50px;
+    margin-top: -50px;
 }
     .texte_form2 {
     margin-top: 0px;
@@ -131,7 +115,9 @@ p{
 }
     .titre_form {
         font-size: 40px;
-        top: 0px;
+        top: -150px;
+        width: 80%;
+        text-align: center;
     }
     
     .icone_form{

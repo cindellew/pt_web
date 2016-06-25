@@ -1,3 +1,6 @@
+
+
+
 .info_comp{
     height: 500px;
 }
@@ -5,10 +8,10 @@
 .icone_comp{
     background-image: url(../../../images/comp%C3%A9tence.png);
     background-size: cover;
-    width: 158px;
-    height: 100px;
+    width: 104px;
+    height: 65px;
     position: absolute;
-    top: 40px;
+    top: 60px;
     left: 600px;
 }
 
@@ -65,6 +68,7 @@
     position: absolute;
     bottom: 30px;
     left: 200px;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 .retour_comp{
@@ -169,3 +173,113 @@
 	-moz-transition: box-shadow 0.2s ease-in-out;
 	transition: box-shadow 0.2s ease-in-out;
 }
+
+
+
+/* MEDIA */
+
+
+@media (max-width:400px){
+    .info_comp{
+        height: 700px;   
+    }
+    
+    .titre_comp{
+        font-size: 30px;
+        
+    }
+    
+    .soustitre_comp{
+        font-size: 20px;   
+    }
+    
+    .soustitre_comp{
+        left: 60px;
+        top: 0;
+    }
+    
+    .soustitre_compw{
+        
+      
+    }
+    
+    .icone_comp{
+        display: none;
+    }
+
+    
+    .pourcent_comp{
+        width: 200px;
+        height: 230px;
+        left: 70px;
+    }
+    
+    .pourcent_comp2{
+        width: 210px;
+        height: 180px;
+        left: 70px;
+        top: 80px;
+    }
+    
+    
+    .texte{
+        font-size: 18px;
+    }
+    
+    .textei{
+        left: 50px;
+        width: 70%;
+    }
+    
+    .textew{
+        left: 50px;
+        width: 70%;
+    }
+    
+    .textei1{
+        top: 300px;   
+    }
+    
+    .textei2{
+        top: 450px;   
+    }
+    
+    .textew{
+        width: 70%;
+        left: 50px;
+    }
+    
+    .textew1{
+        top: 270px;   
+    }
+    
+    .textew2{
+        top: 400px;   
+    }
+    
+    .lien_port{
+        left: 50px;
+        top: 560px;
+    }
+    
+    .retour_comp{
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,17 +1,5 @@
- @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-h1{
-    font-family: 'Open Sans', sans-serif;  
-    font-weight: 600;  
-}
 
-h2{
-    font-family: 'Open Sans', sans-serif; 
-}
-
-p{
-    font-family: 'Open Sans', sans-serif;
-} 
 
 .conteneur{
     position: relative; 
@@ -26,11 +14,11 @@ p{
 .icone_exp{
     background-image: url(../images/exp%C3%A9riences.png);
     background-size: cover;
-    width: 76px;
-    height: 150px;
+    width: 45px;
+    height: 90px;
     position: absolute;
-    left: 450px;
-    top: 20px;
+    left: 470px;
+    top: 60px;
 }
 
 .schema_exp{
@@ -42,14 +30,15 @@ p{
     padding-top: 90px; 
     color: white;
     font-size: 27px;
-    color: #F0DCEE;
+    color: #FAD2D2;
 }
 
 
 .schema_img{
-    background-image: url(../images/trait_experience.png);
-    width: 710px;
-    height: 277px;
+    background-image: url(../images/trait_experience1.png);
+    background-size: cover;
+    width: 705px;
+    height: 65px;
     position: absolute;
     top: 300px;
     right: 300px;
@@ -57,6 +46,7 @@ p{
 
 .texte_exp{
     text-align: center;
+    
 }
 
 .texte_exp1{
@@ -72,14 +62,17 @@ p{
     padding-top: 60px; 
     color: white;
     font-size: 20px;
+    color: #FAD2D2;
 }
 
 .soustitre_exp{
     font-size: 20px;
+    color: #FBEBEB;
 }
 
 .sousoutitre_exp{
     font-size: 16px;
+    color: #FBEBEB;
 }
 
 .retour_exp{
@@ -92,7 +85,8 @@ p{
     color: white;
     position: absolute;
     bottom: 0px;
-    right: 100px;
+    right: 90px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -106,8 +100,8 @@ p{
     
    .retour_exp{
        font-size: 20px;
-       right: 130px;
-       bottom: 130px;
+       right: 135px;
+       bottom: 80px;
 }
     .schema_img{
         display: none;
@@ -128,9 +122,7 @@ p{
     }
     
     .icone_exp{
-        width: 51px;
-        height: 100px;
-        left: 260px;
+        display: none;
     }
     .soustitre_exp{
     font-size: 18px;

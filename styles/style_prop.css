@@ -11,15 +11,15 @@
 .icone_prop{
     background-image: url(../images/a_propos.png);
     background-size: cover;
-    width: 120px;
-    height: 123px;
+    width: 100px;
+    height: 103px;
     position: absolute;
-    top:30px;
+    top:45px;
     left: 450px;
 }
 
 .texte_prop{
-    font-size: 20px;   
+    font-size: 18px;   
     text-align: justify;
 }
 
@@ -28,7 +28,6 @@
     top: 200px;
     left: 100px;
     font-weight: 600;
-    color: #D1B8CF;
  }
 
 
@@ -61,6 +60,7 @@
     position: absolute;
     bottom: 0px;
     right: 220px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -70,17 +70,18 @@
     font-size: 18px;
     padding: 0.5em;
     background-color: transparent;
-    border: 1px solid #CEA3CA;
+    border: 1px solid #e0e2e1;
     border-radius: 20px;
     color: white;
     position: absolute;
     bottom: 70px;
     left: 130px; 
-    color:  #D1B8CF;
+    color:  #e0e2e1;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 
-
+/*
 @media (max-width:1200px){
     
     .photo{
@@ -122,6 +123,55 @@
            left: 350px;
     }
     
+}*/
+
+@media (max-width:400px){
+ 
+    .contenu_prop{
+        height: 910px;
+}
+    
+    .icone_prop{
+        display: none;
+    }
+    
+    .titre_prop{
+        font-size: 40px; 
+        left: 40px;
+    }
+    
+    .photo{
+        width: 151px;
+        height: 150px;
+        left: 110px;
+        top: 100px;
+    }
+    
+    .texte_prop{
+        width: 90%;
+    }
+    
+    .texte_haut{
+        left: 20px;
+        font-size: 18px;
+        top: 300px;
+    }
+    
+    .texte_bas{
+        left: 20px; 
+        font-size: 18px;
+        top: 500px;
+    }
+    
+    .retour_prop{
+        font-size: 20px;
+        margin-right: -90px;
+    }
+    
+    .cv{
+        margin-bottom: 30px;
+        margin-left: -70px;
+    }
 }
     
     
