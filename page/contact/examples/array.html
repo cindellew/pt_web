@@ -13,39 +13,39 @@
 </head>
 
 <body>
-<div class="wrapper boite">
-    <div class="row box_texte colg3">
-        <h1 class="contact_titre">Contact</h1>
+    <div class="wrapper boite">
+        <div class="row box_texte colg3">
+            <h1 class="contact_titre">Contact</h1>
             <div class="contact_icone"></div>
             <div class="contact_texte">
                 <p class="nom">Cindelle Wanner</p>
-                <p class="autre">101 rue de l'Ortenbourg Annexe<br/>67730 Châtenois</p>
+                <p class="autre">101 rue de l'Ortenbourg-Annexe<br/>67730 Chatenois</p>
                 <p class="autre">06.06.46.17.03</p>
                 <p class="autre">cindelle.wanner@gmail.com</p>
             </div>
-    </div>
-    <div class="row map colg3">
-        <div class="contact_cadre"></div>
-        <div id="locatorList" style="height:400px"></div>
-        <script>      
-          var data = [{
-                title: 'Scherwiller',
-                description: "101 rue de l'Ortenbourg, 67730 Châtenois Annexe",        
-                lat: 48.288576,
-                lng: 7.407982
+        </div>
+        <div class="row map colg3">
+            <div class="contact_cadre"></div>
+            <div id="locatorList" style="height:400px"></div>
+            <script>      
+              var data = [{
+                    title: 'Scherwiller',
+                    description: "101 rue de l'Ortenbourg, 67730 Châtenois Annexe",        
+                    lat: 48.288576,
+                    lng: 7.407982
 
-             }
-          ];
+                 }
+              ];
 
-          $( document ).ready(function() {
-            $('#locatorList').easyLocator({
-               myLocations: data
-            });
-          });
-       </script>
-    </div>
-    <a href="../../../index.html" class="retour_cont">retour</a>
-</div> 
+              $( document ).ready(function() {
+                $('#locatorList').easyLocator({
+                   myLocations: data
+                });
+              });
+           </script>
+        </div>
+        <a href="../../../index.html" class="retour_cont">retour</a>
+    </div> 
 </body>
 
 </html>

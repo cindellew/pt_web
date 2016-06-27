@@ -1,7 +1,5 @@
 /*********************************************PORTFOLIO****************************************************/
 
-
-
 .menu{
     height: 2em;   
     position: absolute;
@@ -12,7 +10,6 @@
 .menu_web{
     top: 80px;   
 }
-
 
 body {
 	font-size: 40px;
@@ -28,8 +25,6 @@ body {
 	clear: both;
 }
 
-
-
 .button {
 	float: left;
 	margin: 10px;
@@ -43,8 +38,7 @@ body {
     background-size: cover;
     width: 54px;
     height:  50px;
-    position: absolute;
-    
+    position: absolute; 
 }
 
 .info_icone{
@@ -57,9 +51,6 @@ body {
     left: 720px; 
 }
 
-
-
-
 /* images */
 
 .img_portwf{
@@ -67,7 +58,6 @@ body {
     background-size: cover;
     background-color: transparent;
 }
-
 
 #img_portf1{
     height: 400px;
@@ -151,8 +141,6 @@ body {
     font-family: 'Open Sans', sans-serif; 
 }
 
-
-
 /******* chaque page   ********/
 
 .port_button{
@@ -206,8 +194,6 @@ body_pic{
     text-align: center;
 }
 
-  
-
 .img_pic_touc{
     background-size: cover;
     position: absolute;
@@ -229,7 +215,6 @@ body_pic{
     top: 120px;
 }
 
-
 .titre_ex{
     position: absolute;
     top: 40px;
@@ -241,7 +226,6 @@ body_pic{
 .titre_pic{
     right: 50px;
 }
-
 
 .img_pomme{
     background-image: url(../images/portfolio_info4.png);
@@ -265,7 +249,6 @@ body_pic{
     width: 50%;
     text-align: center;
 }
-
 
 .img_portf{
     background-image: url(../images/portfolio_web1.png);
@@ -301,8 +284,6 @@ body_pic{
     text-align: justify;
 }
 
-
-
 .lien{
     position: absolute;
     font-size: 25px;
@@ -311,8 +292,6 @@ body_pic{
     font-family: 'Open Sans', sans-serif; 
     
 }
-
-
 
 .lien_pomme{
     position: absolute; 
@@ -379,9 +358,6 @@ body_pic{
     margin-right: 100px;
 }
 
-
-
-
 /*@media (max-width:1100px){
     
     .texte_media{
@@ -413,8 +389,6 @@ body_pic{
         font-size: 18px;
    }
     
-    
-    
     .img_pic_touc{
         position: absolute;
         top: 100px;
@@ -431,9 +405,7 @@ body_pic{
         right: 0;
         width: 100%;
         text-align: center;
-}
-    
-    
+    }  
 }
 
 @media (max-width:800px){
@@ -495,12 +467,7 @@ body_pic{
         left: 200px;
         bottom: 100px;
     }
-    
-    
-    
-    
 }
-
 
 @media (max-width:500px){
     
@@ -555,8 +522,6 @@ body_pic{
 */
 
 @media (max-width:400px){
-
-   
     
 /* GENERAL */
     
@@ -624,11 +589,7 @@ body_pic{
     .button_creat{
         bottom: 50px;
     }
-    
-    
-    
-    
-    
+      
 /* LOGO */
     
     .img_pic{
@@ -638,19 +599,16 @@ body_pic{
         left: 80px;
     }
     
-
     .texte_pic{
         left: 55px;
         top: 350px;
         height: 800px;
     }
-    
 
     .cont_pic{
         height: 1000px;   
     }
 
-    
     .button_pic{
         font-size: 30px;
         bottom: 10px;
@@ -671,8 +629,9 @@ body_pic{
     
 /* POMME */
     
-    .cont_pomme{
-        height: 1100px;   
+    
+    .body_pomme{
+        height: 1000px;   
     }
     
     .titre_pomme{
@@ -830,9 +789,7 @@ body_pic{
         width: 80%;
         left: 40px;
         top: 750px;
-        
     }
-    
     
     .lien{
         width: 100%;
@@ -871,10 +828,5 @@ body_pic{
         font-size: 20px;
         bottom: 0;
         right: 150px;
-    }
-    
-    
-    
-    
-    
+    }    
 }

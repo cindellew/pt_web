@@ -34,9 +34,6 @@ p{
     right: 150px;
 }
 
-
-
-
 .contact_titre{
     position: absolute;
     top: 0px;
@@ -53,17 +50,13 @@ p{
     top: 65px;
 }
 
-
-
 .contact_texte{
     position: absolute;
     top: 150px;
     text-align: center;
     font-size: 20px;
-    width: 50%;
-    
+    width: 50%; 
 }
-
 
 .nom{
     color: #e0e2e1;
@@ -83,10 +76,6 @@ p{
     top: 100px;
     width: 500px;
 }
-
-
-
-
 
 @media (max-width:400px){
   
@@ -148,10 +137,10 @@ p{
 }
 
 .locatorMap_list {
-   list-style: none;
-   padding: 0px 2px 10px 2px;
-   margin: 0px 10px 0px 10px;
-   font-family: sans-serif;  
+    list-style: none;
+    padding: 0px 2px 10px 2px;
+    margin: 0px 10px 0px 10px;
+    font-family: sans-serif;  
     display: none;
 }
 

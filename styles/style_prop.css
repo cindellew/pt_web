@@ -1,4 +1,4 @@
- .contenu_prop{
+.contenu_prop{
     position: relative;
     height: 610px;
 }
@@ -46,7 +46,7 @@
     height: 298px;
     position: absolute;
     right: 300px;
-    top: 30px;;
+    top: 60px;;
 }
 
 .retour_prop{
@@ -65,7 +65,7 @@
 
 
 .cv{
-        text-decoration: none;
+    text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
     padding: 0.5em;

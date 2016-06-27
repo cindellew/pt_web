@@ -1,5 +1,3 @@
-
-
 .conteneur{
      position: relative;
      height: 650px;
@@ -20,10 +18,6 @@
     position: absolute;
     top: 30px;
     left: 440px;
-}
-
-.schema_form{
-      
 }
 
 .annee{
@@ -54,12 +48,6 @@
 .texte_form{
     text-align: center;
     margin-top: 170px;
-}
-
-
-
-.texte_form p{
-       
 }
 
 .soustitre_form{
@@ -95,24 +83,28 @@
    .retour_form{
        font-size: 20px;
        right: 125px;
-}
+   }
+    
     .schema_img{
         display: none;
     }
+    
     .annee{
         display: none;
     }
     
-    
     .texte_form1 {
-    margin-top: -50px;
-}
+        margin-top: -50px;
+    }
+    
     .texte_form2 {
-    margin-top: 0px;
-}
+        margin-top: 0px;
+    }
+    
     .texte_form3 {
-    margin-top: 0px;
-}
+        margin-top: 0px;
+    }
+    
     .titre_form {
         font-size: 40px;
         top: -150px;
@@ -126,10 +118,10 @@
         left: 260px;
         top: 30px;
     }
-    .soustitre_form{
-    font-size: 18px;
-}
     
+    .soustitre_form{
+        font-size: 18px;
+    }  
 }
 
 @media (min-width:400px){

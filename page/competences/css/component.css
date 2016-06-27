@@ -1,6 +1,7 @@
 
-
-
+.slider{
+    display: none;
+}
 .info_comp{
     height: 500px;
 }
@@ -84,16 +85,7 @@
     right: 100px;
 }
 
-
-
-
-
-
-
-
 /************************* SLIDER **************/
-
-
 
 .cbp-fwslider {
 	position: relative;
@@ -121,8 +113,6 @@
 	display: block;
 	outline: none;
 }
-
-
 
 .cbp-fwslider nav span {
 	position: absolute;
@@ -179,6 +169,12 @@
 /* MEDIA */
 
 
+@media (min-width:400px){
+    .slider{
+        display: none;
+    }
+    
+}
 @media (max-width:400px){
     .info_comp{
         height: 700px;   
@@ -268,18 +264,3 @@
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
